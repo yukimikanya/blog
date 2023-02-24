@@ -13,6 +13,15 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"></link>
+          
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-QMZE6HJQ5R"></script>
+          <script dangerouslySetInnerHTML={{__html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-QMZE6HJQ5R');
+          `}}></script>
         </Head>
         <body>
           <Main />
