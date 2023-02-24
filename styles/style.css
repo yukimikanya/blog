@@ -1,0 +1,19 @@
+.some-class {
+  font-size: 14px;
+}
+@media (min-width: 640px) {
+  .some-class {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .some-class {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1280px) {
+  .some-class {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
