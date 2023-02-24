@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@vercel/analytics": "^0.1.10",
     "dayjs": "^1.11.7",
     "microcms-js-sdk": "^2.3.2",
     "next": "13.1.6",
