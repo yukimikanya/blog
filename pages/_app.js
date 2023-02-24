@@ -1,11 +1,10 @@
-import { Analytics } from '@vercel/analytics/react';
+import '@/styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="font-quicksand">
       <Component {...pageProps} />
-      <Analytics />
-    </>
+    </div>
   );
 }
 
