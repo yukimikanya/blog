@@ -26,7 +26,7 @@ const Footer = ({ category }) => {
                 <div className="footer-guide__box">
                   <p>リンク集</p>
                   <ul>
-                    <li><a href="https://twitter.com/WebYukiyuki" className="link" target="_blank"><p>Twitter</p></a></li>
+                    <li><a href="https://twitter.com/yukimikan_nya" className="link" target="_blank"><p>Twitter</p></a></li>
                     <li><a href="https://www.instagram.com/yukinya222/" className="link" target="_blank"><p>Instaglam</p></a></li>
                   </ul>
                 </div>

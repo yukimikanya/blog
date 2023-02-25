@@ -779,22 +779,12 @@ html{
             justify-content: space-between;
             flex-direction: column;
             width:100%;
-            height:70vh;
             border-radius: 10px;
             padding: 5%;
             background-color: var(--main-color);
             border: 1px solid var(--outline-border);
 
-            @media (max-width: $breakpoint-tab) {
-              height:75vh;
-            }
-
-            @media (max-width: $breakpoint-sp) {
-              height:60vh;
-            }
-
             h2{
-              height:3rem;
               overflow: hidden;
               text-align:center ;
             }

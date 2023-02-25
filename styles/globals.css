@@ -679,24 +679,12 @@ html .list .list-wrapper .list-ul .size .a-link {
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
-  height: 70vh;
   border-radius: 10px;
   padding: 5%;
   background-color: var(--main-color);
   border: 1px solid var(--outline-border);
 }
-@media (max-width: 1024px) {
-  html .list .list-wrapper .list-ul .size .a-link {
-    height: 75vh;
-  }
-}
-@media (max-width: 640px) {
-  html .list .list-wrapper .list-ul .size .a-link {
-    height: 60vh;
-  }
-}
 html .list .list-wrapper .list-ul .size .a-link h2 {
-  height: 3rem;
   overflow: hidden;
   text-align: center;
 }

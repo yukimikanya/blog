@@ -18,7 +18,7 @@ const Header = () => {
                   </div>
 
                   <div className="menu-box">
-                  <a href="https://twitter.com/WebYukiyuki" className="link" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/yukimikan_nya" className="link" target="_blank">Twitter</a>
                   </div>
 
                   <div className="menu-box">
